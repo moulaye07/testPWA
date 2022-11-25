@@ -1,0 +1,112 @@
+.CreateAccount {
+  background-color: white;
+  /* height: 100%;
+  width: 100%; */
+  overflow-x: auto;
+}
+
+.createHead {
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.addPhoto {
+  margin: auto;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.addPhoto p {
+  margin: auto;
+  margin-left: 2%;
+  margin-right: 0;
+  text-align: left;
+  width: 50%;
+}
+
+.addPhoto input {
+  margin: auto 10% auto 0;
+  text-align: center;
+  width: 100%;
+}
+
+.CreateAccount form {
+  display: grid;
+  height: 90%;
+}
+
+.formInp {
+  display: grid;
+  /* flex-direction: row; */
+  grid-auto-columns: 2fr;
+  margin: 2%;
+  height: 5vh;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.formInp input {
+  width: 150%;
+}
+
+.formInp p {
+  width: 100%;
+}
+
+.formInp select {
+  width: 50%;
+  margin-left: 0;
+}
+
+.submt {
+  width: 40%;
+  margin: 2% auto;
+}
+
+/* redesign starts here */
+
+.input {
+  display: flex;
+  margin: 10px;
+}
+
+.form-label {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  color: #484848;
+  width: 80px;
+}
+
+.error {
+  background: pink;
+  width: 100%;
+}
+
+.errorForm {
+  display: grid;
+  width: 100%;
+  font-size: 100%;
+  margin-left: 33%;
+}
+
+.password {
+  display: flex;
+  margin: 10px;
+}
+
+.chk {
+  margin-left: 10%;
+}
+
+.chkd {
+  margin: auto 15% auto;
+}
